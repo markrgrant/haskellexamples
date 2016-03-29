@@ -2,6 +2,7 @@
 -- on parent-child relationships where parent information could be missing.
 -- This example is based on the examples provided in the Haskell Wikibook:
 -- https://en.wikibooks.org/wiki/Haskell/Understanding_monads/Maybe
+module Main where
 
 import Control.Monad ((>=>))
 
