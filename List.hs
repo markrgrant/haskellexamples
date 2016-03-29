@@ -1,7 +1,10 @@
 -- Examples using lists as Monads that model nondeterministic
 -- computation.  In this example, the nondeterministic computation
 -- is the set of possible locations that a person could be on a map
--- after taking arbitrary turns.   The example is from 
+-- after taking arbitrary turns.   The example is based on the discussion
+-- provided here:
+-- https://en.wikibooks.org/wiki/Haskell/Understanding_monads/List
+
 module Main where
 
 
